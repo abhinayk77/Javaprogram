@@ -1,0 +1,28 @@
+package Day24;
+
+    import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+    public class HandalineRead {
+        public static void main(String[] args) {
+            String filePath = ("C:\\Users\\Abhin\\IdeaProjects\\JAVAAutomation\\src\\Day24\\Test.txt"); // Replace with your file path
+
+            try {
+                FileReader fr = new FileReader(filePath);
+                BufferedReader br = new BufferedReader(fr);
+
+                String line;
+                while ((line = br.readLine()) != null) {
+                    System.out.println(line);
+                }
+
+                br.close();
+                fr.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while reading the file.");
+                e.printStackTrace();
+            }
+        }
+
+}
