@@ -2,7 +2,7 @@ package Day4;
 
 public class Calculator {
     public static void main(String[] args) {
-        int num1=10,num2=5;
+        int num1=100,num2=5;
        char operator ='*';
       //  System.out.println("enter operator (+,-,*,/):");
         switch (operator){
