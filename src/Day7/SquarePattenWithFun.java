@@ -12,6 +12,7 @@ public class SquarePattenWithFun {
         }
     }
     public static void main(String[] args) {
-printSquare(7); //function call
+printSquare(6); //function call
+
     }
 }
